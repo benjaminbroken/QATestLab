@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation_3" verbose="1">
+    <parameter name="minNumber" value="10"></parameter>
+    <test name="BingTest">
+        <classes>
+            <class name="BingTest"></class>
+        </classes>
+    </test>
+</suite>
